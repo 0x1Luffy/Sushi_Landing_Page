@@ -2,7 +2,7 @@
 
   # Sushi Landing Page
 
-  ![Sushi Landing Page](url/to/your/project/image.png)
+  ![Sushi Landing Page](https://i.ibb.co/0Xs6wtV/Jap-Eat-Chetan-Kesare.png)
 
   A modern and visually appealing Sushi Landing Page built with HTML and CSS, featuring eye-catching visuals and animations.
 
