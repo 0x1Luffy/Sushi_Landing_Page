@@ -12,6 +12,7 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.2",
     "aos": "^2.3.4"
   }
 }
