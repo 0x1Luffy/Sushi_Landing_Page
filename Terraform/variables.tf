@@ -1,29 +1,28 @@
 variable "aws_region" {
-  description = "AWS region to deploy the instances"
-  default     = "ap-south-1" # Default is optional
+  description = "AWS region for deployment"
+  type        = string
+  default     = "us-west-2"
 }
 
-variable "aws_profile" {
-  description = "AWS CLI profile name"
-  default     = "default" # Optional, replace if using a custom profile
+variable "project_name" {
+  description = "Name of the project"
+  type        = string
+  default     = "Sushi Landing Page"
 }
 
 variable "instance_count" {
   description = "Number of EC2 instances to create"
+  type        = number
   default     = 3
 }
 
 variable "instance_type" {
-  description = "Type of EC2 instance"
+  description = "EC2 instance type"
+  type        = string
   default     = "t2.micro"
 }
 
 variable "ami_id" {
-  description = "The AMI ID to use for the instances"
-  default     = "ami-04b4f1a9cf54c11d0"
-}
-
-variable "key_name" {
-  description = ""
-  default     = "chetankesare" # Replace with your actual key pair name
+  description = "AMI ID for EC2 instances"
+  type        = string
 }
